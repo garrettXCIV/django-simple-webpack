@@ -1,0 +1,18 @@
+[run]
+branch = True
+source = simple_webpack
+omit =
+  *__init__.py
+  */migrations/*
+  *apps.py
+  *exceptions.py
+  *urls.py
+  *views.py
+  django_simple_webpack/*
+  env/*
+  manage.py
+  setup.py
+  tests/*
+
+[html]
+directory = tmp/htmlcov

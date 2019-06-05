@@ -1,0 +1,5 @@
+keyring==10.5.0
+keyrings.alt==2.3
+Sphinx==1.6.5
+sphinx-rtd-theme==0.2.5b2
+wheel==0.30.0

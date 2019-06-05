@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static simple_webpack_tags %}
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Simple Webpack</title>
+
+  <link href="{% simple_webpack %}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>here da location of ur webpacks boiii: {% simple_webpack %}</h1>
+    <h2>idk: {% webpack_static_file "bundle.css" %}</h2>
+</body>
+</html>
